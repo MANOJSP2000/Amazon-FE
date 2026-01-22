@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "ravi-project-s3bucket"  # Replace with your actual S3 bucket name
+    bucket = "manojsp-terraform-s3-vpc-alb"
     key    = "EKS/terraform.tfstate"  
     region = "ap-south-1" 
   }
